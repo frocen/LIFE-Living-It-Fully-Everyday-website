@@ -1,0 +1,549 @@
+footer {
+  background: rgb(48, 50, 53);
+  display: grid;
+}
+h1 {
+  font-size: 60px;
+  margin: 10px;
+}
+h2 {
+  font-size: 30px;
+  margin: 10px;
+}
+h3 {
+  font-size: 15px;
+  margin: 10px;
+}
+.copyright {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  margin-top: -50px;
+}
+pre {
+  white-space: pre;
+  font-family: sans-serif;
+  margin: 0px;
+  text-align: left;
+}
+.splitLine {
+  background-color: rgb(122, 122, 121);
+  height: 3px;
+  display: flex;
+  text-align: center;
+  margin: 20px;
+  max-width: 1350px;
+  margin-left: 299px;
+  margin-right: 299px;
+}
+.shortLine {
+  background-color: rgb(71, 71, 71);
+  height: 1px;
+  display: flex;
+  text-align: center;
+  width: 200px;
+  margin: 20px;
+  margin-left: 0%;
+}
+.sitemap-container {
+  max-width: 1350px;
+  margin-top: 50px;
+  display: flex;
+}
+.sitemap-block {
+  max-width: 450px;
+  display: block;
+  width: 100%;
+  margin-left: 299px;
+}
+.sitemap-block a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  text-decoration: none;
+}
+/* Navbar */
+nav {
+  position: fixed;
+  top: 0px;
+  z-index: 999999;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(25, 144, 241);
+}
+
+li {
+  float: left;
+}
+
+a.dropbtn {
+  padding-bottom: 26.5px;
+  padding-top: 26.5px;
+}
+
+li a,
+.dropbtn {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00e0ce;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(2, 59, 184);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#loginButton,
+#welcome{
+  margin-left: 60%;
+}
+/* Navbar end*/
+/* two column layout*/
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  margin: 90px;
+  height: 900px;
+}
+
+.container2 {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  margin: 152px;
+  height: 2600px;
+  margin-bottom: 0px;
+  margin-top: 100px;
+}
+
+.layoutImage {
+  width: 1350px;
+  height: 100%;
+}
+
+.rightText {
+  position: absolute;
+  color: black;
+  top: 50%;
+  left: 65%;
+  transform: translate(-33%, -50%);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 650px;
+  background-color: rgb(243, 240, 240, 0.3);
+}
+.centerText {
+  position: absolute;
+  color: black;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 700px;
+  background-color: rgb(243, 240, 240, 0.3);
+}
+.serviceLeftText {
+  position: absolute;
+  color: black;
+  top: 50%;
+  left: 20%;
+  transform: translate(-33%, -50%);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 650px;
+  background-color: rgb(243, 240, 240, 0.3);
+}
+.leftText {
+  position: absolute;
+  color: black;
+  top: 22%;
+  left: 20%;
+  transform: translate(-33%, -50%);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 650px;
+  background-color: rgb(243, 240, 240, 0.3);
+}
+.yogaImage {
+  position: absolute;
+  top: 22%;
+  left: 65%;
+  transform: translate(-26%, -50%);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 580px;
+  height: 459px;
+}
+.rightText2 {
+  position: absolute;
+  color: black;
+  top: 44%;
+  left: 65%;
+  transform: translate(-26%, -50%);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 580px;
+  background-color: rgb(243, 240, 240, 0.3);
+}
+.meditationImage {
+  position: absolute;
+  top: 44%;
+  left: 20%;
+  transform: translate(-33%, -50%);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 650px;
+  height: 459px;
+}
+.leftText2 {
+  position: absolute;
+  color: black;
+  top: 66%;
+  left: 20%;
+  transform: translate(-33%, -50%);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 650px;
+  background-color: rgb(243, 240, 240, 0.3);
+}
+.stretchingImage {
+  position: absolute;
+  top: 66%;
+  left: 65%;
+  transform: translate(-26%, -50%);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 580px;
+  height: 459px;
+}
+.rightText3 {
+  position: absolute;
+  color: black;
+  top: 87%;
+  left: 65%;
+  transform: translate(-26%, -50%);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 580px;
+  background-color: rgb(243, 240, 240, 0.3);
+}
+.habitsImage {
+  position: absolute;
+  top: 87%;
+  left: 20%;
+  transform: translate(-33%, -50%);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  width: 650px;
+  height: 389px;
+}
+
+/* two column layout end*/
+
+/* four image box link to web*/
+.containerFourImage {
+  display: flex;
+  height: 100%;
+  margin-left: 190px;
+  margin-top: -240px;
+  flex-wrap: wrap;
+}
+
+.imgbox {
+  position: relative;
+  width: 220px;
+  height: 200px;
+  margin: 50px;
+}
+
+.imgbox img {
+  width: 220px;
+  height: 200px;
+  transition: transform 0.5s ease;
+}
+
+.imgbox .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 200px;
+  background: rgba(44, 44, 44, 0.6);
+  color: #ffffff;
+  opacity: 0;
+  display: flex;
+  font-size: 13px;
+  transition: transform 0.5s ease;
+}
+
+.mask summary {
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.imgbox a:hover .mask {
+  opacity: 0.8;
+}
+
+.imgbox:hover img {
+  -webkit-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+/* contact page*/
+.contactText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  text-align: left;
+  width: 600px;
+  background-color: rgb(243, 240, 240, 0.3);
+}
+.contactText form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+.contactText label {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.centerElement {
+  display: flex;
+  justify-content: center;
+  size: 100;
+}
+input,
+textarea {
+  background: rgba(238, 238, 238, 0.918);
+  border: none;
+  padding: 12px 15px;
+  margin: 0px 0px 10px 0px;
+  resize: none;
+  font-size: 16px;
+}
+input, textarea
+ :focus{
+  outline: none;
+}
+form .error {
+  color: #ff0000;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+/* registration page*/
+.registration {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  text-align: left;
+  width: 700px;
+  background-color: rgb(243, 240, 240, 0.3);
+}
+.registration-container {
+  max-width: 700px;
+  margin-top: 0px;
+  display: flex;
+}
+.registration-block {
+  max-width: 300px;
+  display: block;
+  width: 100%;
+  margin-left: 50px;
+  flex-direction: column;
+}
+.registration-block input{
+  background: rgba(238, 238, 238, 0.918);
+  border: none;
+  margin-top: 20px;
+  resize: none;
+  display: flex;
+  flex-direction: column;
+  padding: 12px 15px; /* change here*/
+  width: 225px;
+}
+.radioContainer{
+  max-width: 700px;
+  display: flex;
+}
+
+.radio-block{
+  max-width: 300px;
+  display: block;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 50px;
+}
+#ageLabel {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+#Age
+{
+  margin-bottom: 0 ;
+  margin-top: 0;
+}
+button {
+  border: 1px solid #ff4b2b;
+  background: #ff4b2b;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  text-transform: uppercase;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+/* meal planner*/
+.caloriesCalculator {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  text-align: left;
+  /*width: 700px;*/
+  width: 1200px;
+  background-color: rgb(243, 240, 240, 0.3);
+  box-shadow: 1px 1px rgb(255, 253, 245), -1em 0 .4em #c3b4af;
+}
+.caloriesCalculator form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+}
+.caloriesCalculator label {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+#Calories,
+#Meals{
+  margin-bottom: 5px;
+}
+
+.mealPlanContainer{
+  max-width: 700px;
+  display: flex;
+}
+
+.mealPlan-block{
+  max-width: 300px;
+  display: block;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.mealPlan-block label{
+  font-size: 15px;
+}
+/* show meal */
+.meal {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  text-align: left;
+  width: 1200px;
+  background-color: rgb(243, 240, 240, 0.3);
+  box-shadow: 1px 1px rgb(255, 253, 245), -1em 0 .4em #c3b4af;
+}
+.mealContainer{
+  max-width: 1200px;
+  display: flex;
+}
+
+.meal-block{
+  max-width: 400px;
+  display: block;
+  width: 100%;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.iconImage{
+  width: 50px;
+}
+.meal-block h3 {
+  display: flex;
+}
+.twoButton{
+  display: flex;
+  width: 100%;
+}
+.buttonSG{
+  display: block;
+}
